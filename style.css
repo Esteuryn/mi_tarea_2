@@ -1,0 +1,32 @@
+.calculator {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#display {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+}
+
+#history-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#history-list li {
+  margin-bottom: 5px;
+}
